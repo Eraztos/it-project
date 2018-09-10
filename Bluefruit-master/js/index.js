@@ -29,7 +29,7 @@ var blue ={
     rxCharacteristic: '6e400003-b5a3-f393-e0a9-e50e24dcca9e'  // receive is from the phone's perspective
 }
 
-var ConnDeviceId;
+var ConnDeviceId = "E0:B3:48:C0:F8:F0";
 var deviceList =[];
  
 function onLoad(){
@@ -38,7 +38,8 @@ function onLoad(){
 }
 
 function onDeviceReady(){
-	refreshDeviceList();
+	//refreshDeviceList();
+	ble.autoConnect(ConnDeviceId, onConnect, onConnError);
 }
 
 	 
