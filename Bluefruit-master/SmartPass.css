@@ -29,14 +29,22 @@ img{
 #refreshButton{
 	width: 100%;
 }
-/*
-#sendButton{
-	width: 100%;
+
+#Pass{
+width: 90px;
+height: 90px;
+background-color:#cf1b27;
+position: absolute;
+top: 10px;
+left:10px;
 }
-#ledOnButton{
-	width: 100%;
+
+ #Pass:hover{
+color:red;
+width: 90px;
+height: 90px;
+position: absolute;
+  background-color: green;
+top: 10px;
+left:10px;
 }
-#ledOffButton{
-	width: 100%;
-}
-*/
