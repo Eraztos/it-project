@@ -77,6 +77,7 @@ function conn(){
 function onConnect(){
 	document.getElementById("statusDiv").innerHTML = " Status: Connected";
 	document.getElementById("bleId").innerHTML = ConnDeviceId;
+	document.getElementById('Pass').style.backgroundColor = 'green';
 	ble.startNotification(ConnDeviceId, blue.serviceUUID, blue.rxCharacteristic, onData, onError);
 }
 

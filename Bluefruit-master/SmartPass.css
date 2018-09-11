@@ -36,10 +36,10 @@ img{
 #Pass{
 width: 90px;
 height: 90px;
-background-color:#cf1b27;
 position: absolute;
-top: 10px;
-left:10px;
+background-color:#cf1b27;
+left: 44%;
+border: 2px solid black;
 }
 
  #Pass:hover{
@@ -47,7 +47,7 @@ color:red;
 width: 90px;
 height: 90px;
 position: absolute;
-  background-color: green;
-top: 10px;
-left:10px;
+background-color: green;
+left: 44%;
+border: 2px solid black;
 }
