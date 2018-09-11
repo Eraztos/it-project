@@ -1,8 +1,11 @@
 body{
 	background-color: #cf1b27;
+	color: white;
 }	
 img{
-	width: 100%;	
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* The content div soround
