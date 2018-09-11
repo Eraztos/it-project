@@ -1,4 +1,5 @@
 // Based on an example:
+//https://github.com/don/cordova-plugin-ble-central
 
 
 // ASCII only
